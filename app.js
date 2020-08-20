@@ -6,7 +6,7 @@ const render = require('koa-ejs');
 const bodyParser = require('koa-bodyparser');
 const router = require('./routes');
 
-const PORT = process.env.port || 3000;
+const PORT = process.env.PORT || 3000;
 
 const app = new Koa();
 
