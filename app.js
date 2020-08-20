@@ -25,6 +25,6 @@ app
     .use(router.allowedMethods());
 app.use(serve(`${__dirname}/public`));
 
-app.listen(3000, (ctx) => {
+app.listen(PORT, (ctx) => {
     console.log( 'App avilable on http://localhost:3000 🚀' );
 })
