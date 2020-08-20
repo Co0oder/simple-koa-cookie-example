@@ -1,0 +1,8 @@
+<div class="zoo">
+    <% Object.keys(characters).forEach(key =>{%>
+        <form action="/form" method= "POST">
+            <input type="hidden" name="character" value="<%= key %>">
+            <button type="submit"><%= characters[key] %></button>
+        </form>
+    <%})%>
+</div>

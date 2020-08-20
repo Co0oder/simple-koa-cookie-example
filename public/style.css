@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.rainbow{
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    text-align: justify ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    padding: 50px;
+    border-radius: 20px;
+    border: 7px solid #fff;
+    background: #000;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 30px;
+    color: white;
+}
+
+.link:hover{
+    color: yellow;
+    border: 7px solid yellow;
+}
+
+.ico{
+    font-size: 100px;
+}
+
+.zoo{
+    border: 7px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    width: 90%;
+    padding: 40px;
+}
+
+.zoo button{
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: white;
+    border: none;
+    font-size: 40px;
+}
+
+.zoo button:hover{
+    background: yellow;
+}
