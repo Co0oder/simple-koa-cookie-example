@@ -2,7 +2,7 @@ const CHARACTERS = {
     'alien': '👽',
     'panda': '🐼',
     'unicorn': '🦄',
-    'humen': '🙍🏾‍♂️'
+    'human': '🙍🏾‍♂️'
 }
 
 exports.index =  ctx => {
